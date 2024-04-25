@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/estilos.css">
+    <link rel="shortcut icon" href="Assets/Favicon/calculadora (1).png" type="image/x-icon">
+    <title>Calculadora Simples</title>
+</head>
+<body>
+    <h1 class="titulo">Calculadora</h1>
+    <div class="form">
+        <form id="calcForm">
+            <input type="number" name="num1" id="inum1"> <br> <br>
+            <div class="expressao">
+                <select name="selecao" id="iselecao">
+                    <option value="+" id="opcao+">+</option>
+                    <option value="-" id="opcao-">-</option>
+                    <option value="*" id="opcaox">x</option>
+                    <option value="/" id="opcao/">/</option>
+                </select>
+            </div>
+            <input type="number" name="num2" id="inum2"> <br>
+            <h3 id="exibir"></h3>
+        </form>
+        <div class="cal-limp">
+            <button id="calcularBtn">Calcular</button> 
+            <button id="limparBtn">Limpar</button>
+        </div>
+    </div>
+
+    <script src="Assets/JS/calc.js"></script>
+</body>
+</html>
